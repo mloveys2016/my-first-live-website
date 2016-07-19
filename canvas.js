@@ -44,7 +44,7 @@ function draw() {
 
     if (canvas.getContext) {
         var ctx = canvas.getContext('2d');
-        var images = loadImages(["DSC_0341_1.jpg"]);
+        var images = loadImages(["download1.png","DSC_0341_1.jpg"]);
         var woodPattern;
         animate();
     } else {
@@ -56,7 +56,7 @@ function draw() {
         
         woodPattern = ctx.createPattern(images[1], "repeat");
         ctx.fillStyle = woodPattern;
-        ctx.fillRect(20, 20, 300, 300);
+        ctx.fillRect(2, 2, 3000, 30000000);
         
         
         ctx.drawImage(images[0], circle.x, circle.y, circle.diameter, circle.diameter);
