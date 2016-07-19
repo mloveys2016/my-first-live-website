@@ -44,7 +44,7 @@ function draw() {
 
     if (canvas.getContext) {
         var ctx = canvas.getContext('2d');
-        var images = loadImages(["redBall.png", "DSC_0341_1.jpg"]);
+        var images = loadImages(["DSC_0341_1.jpg"]);
         var woodPattern;
         animate();
     } else {
